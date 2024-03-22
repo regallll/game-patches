@@ -19,7 +19,7 @@ PPU-34984cacd60f2ee2a380157a009122698d470056:
   "Freeroam":
     Games: *ms2_disc100title
     Author: regal.
-    Notes: EXPERIMENTAL
+    Notes: EXPERIMENTAL; see https://github.com/regallll/game-patches/blob/main/docs/ms2_free_notes.md
     Patch Version: 1.0
     Patch:
       - [ utf8, 0x00dfc230, "\x00" ] # data/%s/%s.bin
@@ -42,7 +42,7 @@ PPU-a1f33132af387c49d452e64fcb0704cb06b6d084:
   "Freeroam":
     Games: *ms2_disc103title
     Author: regal.
-    Notes: EXPERIMENTAL
+    Notes: EXPERIMENTAL; see https://github.com/regallll/game-patches/blob/main/docs/ms2_free_notes.md
     Patch Version: 1.0
     Patch:
       - [ utf8, 0x00d24600, "\x00" ] # data/%s/%s.bin
