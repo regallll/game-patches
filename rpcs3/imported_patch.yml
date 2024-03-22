@@ -23,13 +23,6 @@ PPU-34984cacd60f2ee2a380157a009122698d470056:
     Patch Version: 1.0
     Patch:
       - [ utf8, 0x00dfc230, "\x00" ] # data/%s/%s.bin
-  "Disable Shadows":
-    Games: *ms2_disc100title
-    Author: regal.
-    Notes: ~20% performance improvement but makes the game look worse.
-    Patch Version: 1.0
-    Patch:
-      - [ utf8, 0x00e31300, "\x00" ] # data/%s/%s.trg
   "Disable Crowd Noises":
     Games: *ms2_disc100title
     Author: regal.
@@ -46,13 +39,6 @@ PPU-a1f33132af387c49d452e64fcb0704cb06b6d084:
     Patch Version: 1.0
     Patch:
       - [ utf8, 0x00d24600, "\x00" ] # data/%s/%s.bin
-  "Disable Shadows":
-    Games: *ms2_disc103title
-    Author: regal.
-    Notes: ~20% performance improvement but makes the game look worse.
-    Patch Version: 1.0
-    Patch:
-      - [ utf8, 0x00d5bfa0, "\x00" ] # data/%s/%s.trg
   "Disable Crowd Noises":
     Games: *ms2_disc103title
     Author: regal.
