@@ -23,13 +23,6 @@ PPU-34984cacd60f2ee2a380157a009122698d470056:
     Patch Version: 1.0
     Patch:
       - [ utf8, 0x00dfc230, "\x00" ] # data/%s/%s.bin
-  "Disable Crowd Noises":
-    Games: *ms2_disc100title
-    Author: regal.
-    Notes: Disables the crowd noises that can be heard in the menus.
-    Patch Version: 1.0
-    Patch:
-      - [ utf8, 0x00dff908, "\x00" ] # audio/crowd0%d
 
 PPU-a1f33132af387c49d452e64fcb0704cb06b6d084:
   "Freeroam":
@@ -39,10 +32,3 @@ PPU-a1f33132af387c49d452e64fcb0704cb06b6d084:
     Patch Version: 1.0
     Patch:
       - [ utf8, 0x00d24600, "\x00" ] # data/%s/%s.bin
-  "Disable Crowd Noises":
-    Games: *ms2_disc103title
-    Author: regal.
-    Notes: Disables the crowd noises that can be heard in the menus.
-    Patch Version: 1.0
-    Patch:
-      - [ utf8, 0x00d27d28, "\x00" ] # audio/crowd0%d
